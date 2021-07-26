@@ -1,6 +1,6 @@
 *{
     font-family: sans-serif;
-    margin: 3px;
+    margin-right: 3px;
 }
 h1,h4{
     text-align: center;
@@ -8,7 +8,7 @@ h1,h4{
 #me{
     position: relative;
     width: 50%;
-    margin: 1px auto;
+    margin: 0 auto;
     display: block;
 }
 #me video{
