@@ -40,6 +40,7 @@ client.init("045bb899e60f4abe8c1acdfe52c13801", function () {
 
 // Join a channel
 client.join("006045bb899e60f4abe8c1acdfe52c13801IAAlEZzvNyrT1Gy9kfJMwRK2JqykJ/rv9frLOHJYVtUn/0OQEggAAAAAEAAZP2Q5d7z+YAEAAQB1vP5g", "myChannel", null, (uid)=>{
+    
     // Create a local stream
     let localStream = AgoraRTC.createStream({
         audio: true,
