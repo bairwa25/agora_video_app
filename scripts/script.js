@@ -56,7 +56,7 @@ client.join("006045bb899e60f4abe8c1acdfe52c13801IAAlEZzvNyrT1Gy9kfJMwRK2JqykJ/rv
   }, handleError);
 
 
-  // Subscribe to the remote stream when it is published
+// Subscribe to the remote stream when it is published
 client.on("stream-added", function(evt){
     client.subscribe(evt.stream, handleError);
 });
