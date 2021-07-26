@@ -24,6 +24,7 @@ function removeVideoStream(elementId) {
     if (remoteDiv) remoteDiv.parentNode.removeChild(remoteDiv);
 };
 
+
 //Create and initialize a client object to control the call. 
 var client = AgoraRTC.createClient({
     mode: 'rtc', 
